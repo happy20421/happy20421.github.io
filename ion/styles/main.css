@@ -20,7 +20,9 @@ body {
 
 .page-header {
     background-color: rgb(243, 243, 243);
-    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 2.5rem;
 }
 
