@@ -11,206 +11,105 @@ html {
 }
 
 body {
-    background-color: white;
+    background-color: rgb(47, 47, 47);
     border-left: 1px solid lightgray;
     border-right: 1px solid lightgray;
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
+    min-height: 100vh;
+    max-width: 1920px;
 }
 
+/* .page-header class styling rules. */
 .page-header {
+    background-image: url(/images/ion-base.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 2.5rem;
+    padding: 7.5rem;
 }
 
-.portal-header {
-    background-color: black;
-    color: white;
-    padding: 1.75rem;
-}
-
-.portal-header h1 {
-    font-weight: 100;
-    font-size: 2rem;
-    text-align: center;
-}
-
-.page-nav {
-    width: 100%;
-}
-
-.portal-nav {
-    background-color: lightgray;
-    padding: 0.5rem;
-}
-
-.portal-nav a {
-    padding: 0.5rem;
-}
-
-.nav-list {
-    align-items: center;
+/* .page-nav class styling rules. */
+.page-nav-list {
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
-    list-style: none;
+    list-style-type: none;
 }
 
-.nav-item {
-    background: linear-gradient(to bottom, rgb(47, 47, 47), black);
+.page-nav-item {
+    background-image: linear-gradient(to bottom, rgb(47, 47, 47), black);
     display: inline-block;
     margin-right: 1px;
     width: 100%;
 }
 
-.nav-item-last {
+.page-nav-item-last {
     margin-right: 0;
 }
 
-.nav-item a {
+.page-nav-item a {
     color: white;
     display: block;
-    font-size: 1rem;
     font-weight: bold;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
+    padding: 1.25rem;
     text-align: center;
     text-decoration: none;
-    text-transform: uppercase;
 }
 
-.nav-link-drop-cap {
+.page-nav-item a span {
     font-size: 1.35rem;
 }
 
+/* <main> element styling rules. */
 main {
-    height: 100%;
-    overflow-x: auto;
-    padding-bottom: 2.75rem;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 2.75rem;
+    background-color: rgb(243, 243, 243);
+    padding-bottom: 2.5rem;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 2.5rem;
 }
 
 main h1 {
     border-bottom: 0.5rem solid gray;
-    padding-bottom: 0.75rem;
     font-size: 2rem;
     font-weight: 100;
+    padding-bottom: 0.75rem;
 }
 
 main hr {
     color: lightgray;
 }
 
-main table {
-    border-collapse: collapse;
-    margin-top: 1.75rem;
-}
-
-main table th, main table td {
-    border: 1px solid black;
-    padding: 0.35rem;
-    text-align: center;
-}
-
-main table td.table-row-separator {
-    background-color: black;
-    padding: 1rem;
-}
-
-section {
-    height: auto;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    width: 100%;
-}
-
-.section-note {
-    border-radius: 0.3rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-    padding: 1rem;
-}
-
-.section-note-red {
-    background-color: rgba(255, 0, 0, 0.25);
-    border-left: 1rem solid rgb(255, 0, 0);
-}
-
-.section-note-yellow {
-    background-color: rgba(255, 255, 0, 0.25);
-    border-left: 1rem solid rgb(255, 255, 0);
+section, main hr {
+    margin-top: 1.5rem;
 }
 
 section h2 {
     margin-bottom: 0.75rem;
-    margin-top: 0.75rem;
 }
 
-.section-img {
-    border: 1px solid black;
-    display: block;
-    margin-bottom: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-section p {
-    letter-spacing: 0.05rem;
-    line-height: 1.5rem;
-}
-
-.portal-section-link {
-    color: black;
-    text-decoration: none;
-}
-
-.portal-section {
-    border-radius: 0.25rem;
-    padding: 1.75rem;
-}
-
-.portal-section-docs {
-    background-color: rgba(0, 0, 255, 0.25);
-    border-left: 1rem solid rgb(0, 0, 255);
-    margin-bottom: 1.5rem;
-}
-
-.portal-section-drive {
-    background-color: rgba(0, 255, 0, 0.25);
-    border-left: 1rem solid rgb(0, 255, 0);
-}
-
-.portal-section h3 {
-    color: gray;
-    font-size: 0.85rem;
-}
-
-.portal-section h2 {
-    font-size: 1.25rem;
-}
-
-.paragraph-drop-cap {
-    font-weight: bold;
-    font-size: 2rem;
-}
-
+/* .page-footer class styling rules. */
 .page-footer {
-    background: linear-gradient(to bottom, black, rgb(47, 47, 47));
+    background-image: linear-gradient(to top, rgb(47, 47, 47), black);
     color: white;
     margin-top: auto;
-    padding: 1.5rem;
+    padding: 2.5rem;
 }
 
 .page-footer p {
     text-align: center;
 }
 
-.page-footer p a {
-    color: gray;
+/* Media query rules for larger resolutions. */
+@media only screen and (min-width: 1366) {
+    main {
+        padding-left: 20vw;
+        padding-right: 20vw;
+    }
+}
+
+@media only screen and (min-width: 1920) {
+    main {
+        padding-left: 25vw;
+        padding-right: 25vw;
+    }
 }

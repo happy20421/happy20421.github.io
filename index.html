@@ -6,51 +6,71 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="styles/main.css">
         <link rel="icon" type="image/x-icon" href="images/logo-light-mode.png">
+
+        <style>
+            section {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-evenly;
+                margin-bottom: 1rem;
+                margin-top: 1rem;
+            }
+
+            section img {
+                margin: 1.5rem;
+            }
+
+            section p span {
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+        </style>
     </head>
 
     <body>
         <a href="index.html">
-            <header class="page-header" style="background-image: url(images/ion-base.png)">
-                <img src="images/logo.png">
+            <header class="page-header">
+                <img src="images/logo.png" alt="ion incorporated logo">
             </header>
         </a>
 
         <nav class="page-nav">
-            <ul class="nav-list">
-                <li class="nav-item">
-                    <a href="pages/company.html"><span class="nav-link-drop-cap">C</span>ompany</a>
+            <ul class="page-nav-list">
+                <li class="page-nav-item">
+                    <a href="pages/company.html"><span>C</span>OMPANY</a>
                 </li>
-                <li class="nav-item">
-                    <a href="pages/services.html"><span class="nav-link-drop-cap">S</span>ervices</a>
+                <li class="page-nav-item">
+                    <a href="pages/services.html"><span>S</span>ERVICES</a>
                 </li>
-                <li class="nav-item">
-                    <a href="pages/careers.html"><span class="nav-link-drop-cap">C</span>areers</a>
+                <li class="page-nav-item">
+                    <a href="pages/careers.html"><span>C</span>AREERS</a>
                 </li>
-                <li class="nav-item nav-item-last">
-                    <a href="pages/portal.html"><span class="nav-link-drop-cap">P</span>ortal</a>
+                <li class="page-nav-item page-nav-item-last">
+                    <a href="pages/portal.html"><span>P</span>ORTAL</a>
                 </li>
             </ul>
         </nav>
 
         <main>
-            <section>
-                <img class="section-img" src="images/convoy.jpg">
-                <p><span class="paragraph-drop-cap">I</span>n times of instability and risk - ION positions itself at the heart of your business strategy. With a core team of experienced and influential professionals, ION, Inc. keeps an eye on your security.</p>
+            <section class="section-normal">
+                <img src="images/convoy.jpg" alt="convoy of vehicles">
+                <p><span>I</span>n times of instability and risk - ION positions itself at the heart of your business strategy. With a core team of experienced and influential professionals, ION, Inc. keeps an eye on your security.</p>
             </section>
 
-            <section>
-                <img class="section-img" src="images/river.jpg">
-                <p><span class="paragraph-drop-cap">O</span>ur philosophy is clear: synergizing aspects of agile risk portfolios to minimize your fiscal losses and maximize your stability and crystalize market authority.</p>
+            <section class="section-alt">
+                <p><span>O</span>ur philosophy is clear: synergizing aspects of agile risk portfolios to minimize your fiscal losses and maximize your stability and crystalize market authority.</p>
+                <img src="images/river.jpg" alt="a river valley">
             </section>
 
-            <section>
-                <img class="section-img" src="images/flag.jpg">
-                <p><span class="paragraph-drop-cap">N</span>otable clients and numerous governmental contracts grant us the authority to operate in the world's most challenging environments and gift us the legitimacy of being North America's largest private service contractor.</p>
+            <section class="section-normal">
+                <img src="images/flag.jpg" alt="united states flag">
+                <p><span>N</span>otable clients and numerous governmental contracts grant us the authority to operate in the world's most challenging environments and gift us the legitimacy of being North America's largest private service contractor.</p>
             </section>
         </main>
 
         <footer class="page-footer">
-            <p>2023 ION, Inc. Copyright - All Rights Reserved. <a href="">Legal Disclaimer</a></p>
+            <p>2023 ION, Inc. Copyright - All Rights Reserved. <a href="#top">Legal Disclaimer</a></p>
         </footer>
     </body>
 </html>
