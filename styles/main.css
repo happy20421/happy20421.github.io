@@ -88,7 +88,7 @@ body {
 }
 
 main {
-    min-height: 100vh;
+    height: 100%;
     overflow-x: auto;
     padding-bottom: 2.75rem;
     padding-left: 20%;
@@ -182,8 +182,8 @@ section p {
 }
 
 .portal-section-drive {
-    background-color: rgba(255, 255, 0, 0.25);
-    border-left: 1rem solid rgb(255, 255, 0);
+    background-color: rgba(0, 255, 0, 0.25);
+    border-left: 1rem solid rgb(0, 255, 0);
 }
 
 .portal-section h3 {
