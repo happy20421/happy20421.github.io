@@ -61,7 +61,7 @@ body {
 
 /* <main> element styling rules. */
 main {
-    background-color: rgb(243, 243, 243);
+    background-color: white;
     border-left: 1px solid lightgray;
     border-right: 1px solid lightgray;
     padding-bottom: 2.5rem;
