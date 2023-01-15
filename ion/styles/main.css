@@ -68,6 +68,10 @@ body {
     font-size: 1.35rem;
 }
 
+.main-wrapper {
+    background-color: rgb(243, 243, 243);
+}
+
 main {
     background-color: rgb(243, 243, 243);
     overflow-x: auto;
