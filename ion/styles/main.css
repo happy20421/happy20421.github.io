@@ -72,6 +72,7 @@ body {
 
 .main-wrapper {
     background-color: rgb(243, 243, 243);
+    height: 100%;
 }
 
 main {
