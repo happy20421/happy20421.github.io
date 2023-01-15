@@ -28,8 +28,29 @@ body {
     padding: 2.5rem;
 }
 
+.portal-header {
+    background-color: black;
+    color: white;
+    padding: 1.75rem;
+}
+
+.portal-header h1 {
+    font-weight: 100;
+    font-size: 2rem;
+    text-align: center;
+}
+
 .page-nav {
     width: 100%;
+}
+
+.portal-nav {
+    background-color: lightgray;
+    padding: 0.5rem;
+}
+
+.portal-nav a {
+    padding: 0.5rem;
 }
 
 .nav-list {
@@ -75,7 +96,7 @@ main {
     padding-top: 2.75rem;
 }
 
-h1 {
+main h1 {
     border-bottom: 0.5rem solid gray;
     padding-bottom: 0.75rem;
     font-size: 2rem;
