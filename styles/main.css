@@ -89,6 +89,11 @@ section h2 {
     margin-bottom: 0.75rem;
 }
 
+p {
+    letter-spacing: 0.05rem;
+    line-height: 1.35rem;
+}
+
 /* .page-footer class styling rules. */
 .page-footer {
     background-image: linear-gradient(to top, rgb(47, 47, 47), black);
