@@ -7,13 +7,13 @@
 }
 
 html {
-    background-color: lightgray;
+    background-color: rgb(243, 243, 243);
 }
 
 body {
-    background-color: rgb(248, 249, 250);
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;
+    background-color: white;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -23,7 +23,6 @@ body {
 }
 
 .page-header {
-    background-color: rgb(243, 243, 243);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,7 +30,6 @@ body {
 }
 
 .page-nav {
-    background-color: rgb(243, 243, 243);
     width: 100%;
 }
 
@@ -70,7 +68,6 @@ body {
 }
 
 main {
-    background-color: rgb(243, 243, 243);
     min-height: 100vh;
     overflow-x: auto;
     padding-bottom: 2.75rem;
