@@ -70,8 +70,8 @@ main {
     height: 100%;
     overflow-x: auto;
     padding-bottom: 2.75rem;
-    padding-left: 8rem;
-    padding-right: 8rem;
+    padding-left: 20%;
+    padding-right: 20%;
     padding-top: 2.75rem;
 }
 
