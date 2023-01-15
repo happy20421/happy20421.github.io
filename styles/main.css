@@ -16,7 +16,6 @@ body {
     border-right: 1px solid lightgray;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
     margin-left: auto;
     margin-right: auto;
     width: 60%;
