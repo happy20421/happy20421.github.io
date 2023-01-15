@@ -165,23 +165,34 @@ section p {
     line-height: 1.5rem;
 }
 
-form {}
-
-label {}
-
-input {
-    width: 100%;
+.portal-section-link {
+    color: black;
+    text-decoration: none;
 }
 
-.textbox {
-    border: 2px solid lightgray;
-    padding: 0.5rem;
+.portal-section {
+    border-radius: 0.25rem;
+    padding: 1.75rem;
 }
 
-.submit-button {
+.portal-section-docs {
     background-color: rgba(0, 0, 255, 0.25);
-    border: 2px solid gray;
-    padding: 1rem;
+    border-left: 1rem solid rgb(0, 0, 255);
+    margin-bottom: 1.5rem;
+}
+
+.portal-section-drive {
+    background-color: rgba(255, 255, 0, 0.25);
+    border-left: 1rem solid rgb(255, 255, 0);
+}
+
+.portal-section h3 {
+    color: gray;
+    font-size: 0.85rem;
+}
+
+.portal-section h2 {
+    font-size: 1.25rem;
 }
 
 .paragraph-drop-cap {
