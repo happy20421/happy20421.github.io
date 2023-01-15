@@ -69,13 +69,9 @@ body {
     font-size: 1.35rem;
 }
 
-.main-wrapper {
-    background-color: rgb(243, 243, 243);
-    height: 100%;
-}
-
 main {
     background-color: rgb(243, 243, 243);
+    min-height: 100vh;
     overflow-x: auto;
     padding-bottom: 2.75rem;
     padding-left: 20%;
