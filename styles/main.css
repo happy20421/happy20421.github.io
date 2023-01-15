@@ -67,6 +67,7 @@ body {
 
 main {
     background-color: rgb(243, 243, 243);
+    height: 100%;
     overflow-x: auto;
     padding-bottom: 2.75rem;
     padding-left: 8rem;
