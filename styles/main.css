@@ -67,7 +67,10 @@ body {
 
 main {
     background-color: rgb(243, 243, 243);
+    overflow-x: auto;
     padding-bottom: 2.75rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
     padding-top: 2.75rem;
 }
 
@@ -76,20 +79,14 @@ h1 {
     padding-bottom: 0.75rem;
     font-size: 2rem;
     font-weight: 100;
-    margin-left: 8rem;
-    margin-right: 8rem;
 }
 
 main hr {
     color: lightgray;
-    margin-left: 8rem;
-    margin-right: 8rem;
 }
 
 main table {
     border-collapse: collapse;
-    margin-left: 8rem;
-    margin-right: 8rem;
     margin-top: 1.75rem;
 }
 
@@ -107,10 +104,38 @@ main table td.table-row-separator {
 section {
     height: auto;
     padding-bottom: 1rem;
-    padding-left: 8rem;
-    padding-right: 8rem;
     padding-top: 1rem;
     width: 100%;
+}
+
+.section-note {
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.section-note-yellow {
+    background-color: rgba(207, 180, 2, 0.5);
+    border-left: 1rem solid rgb(207, 180, 2);
+}
+
+.section-note-blue {
+    background-color: rgba(3, 54, 255, 0.5);
+    border-left: 1rem solid rgb(3, 54, 255);
+}
+
+.section-note-red {
+    background-color: rgba(255, 2, 102, 0.5);
+    border-left: 1rem solid rgb(255, 2, 102);
+}
+
+.section-note-green {
+    background-color: rgba(39, 174, 96, 0.5);
+    border-left: 1rem solid rgb(39, 174, 96);
+}
+
+.section-note p a {
+    color: gray;
 }
 
 section h2 {
@@ -129,7 +154,6 @@ section h2 {
 section p {
     letter-spacing: 0.05rem;
     line-height: 1.5rem;
-    text-align: justify;
 }
 
 .paragraph-drop-cap {
