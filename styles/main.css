@@ -108,36 +108,6 @@ section {
     width: 100%;
 }
 
-.section-note {
-    border-radius: 0.5rem;
-    margin-bottom: 2rem;
-    padding: 1rem;
-}
-
-.section-note-yellow {
-    background-color: rgba(207, 180, 2, 0.5);
-    border-left: 1rem solid rgb(207, 180, 2);
-}
-
-.section-note-blue {
-    background-color: rgba(3, 54, 255, 0.5);
-    border-left: 1rem solid rgb(3, 54, 255);
-}
-
-.section-note-red {
-    background-color: rgba(255, 2, 102, 0.5);
-    border-left: 1rem solid rgb(255, 2, 102);
-}
-
-.section-note-green {
-    background-color: rgba(39, 174, 96, 0.5);
-    border-left: 1rem solid rgb(39, 174, 96);
-}
-
-.section-note p a {
-    color: gray;
-}
-
 section h2 {
     margin-bottom: 0.75rem;
     margin-top: 0.75rem;
